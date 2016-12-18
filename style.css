@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+  background-color:blue;
+}
+
+h1 {
+  font-weight: bold;
+  color: pink;
+  text-align:center;
+}
+
+#users-container{
+  font-size:20px;
+  
+  font_style:Helvetica arial;
+  background-color:white;
+  width:600px;
+  margin-left:350px;
+}
+
+#row{
+  text-align:left;
+  background-color:#d2ddef;
+  border-color:gray;
+}
+
+#connection{
+  text-align:right;
+}
+
+span{
+  font-color:green;
+  font-size:10px;
+}
+button {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: 2px 2px teal;
+  cursor: pointer;
+  position:relative;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+#allBtn{
+  margin:0 0 0 500px;
+}
